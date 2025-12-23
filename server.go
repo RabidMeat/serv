@@ -15,7 +15,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	defer r.Body.Close()
 
 	data := Response{
-		Message: "кд чд",
+		Message: "Hello",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
